@@ -16,6 +16,8 @@ return new class extends Migration
             $table->string('title');
             $table->string('product_count');
             $table->string('image_path')->nullable();
+            $table->string('slug')->unique();
+            $table->softDeletes();
             $table->timestamps();
         });
     }

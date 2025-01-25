@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
+
     <!-- Banner -->
     <header class="max-w-7xl mx-auto rounded-md mt-28 py-auto lg:flex-1">
         <div class="container bg-gray-900 text-white mx-auto px-auto mt-28 py-20 rounded-2xl">
